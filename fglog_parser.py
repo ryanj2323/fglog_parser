@@ -9,7 +9,7 @@ from datetime import datetime
 
 ## VARs
 fields=['eventtime','action','srccountry','srcip','srcport','dstport','dstip','dstcountry']
-p='[a-z]+=[0-9]\S*|[a-z]+=["]\D.[^"]+["]'
+p='[a-z]+=[0-9]\S*|[a-z]+=["][a-zA-Z0-9+].[^"]+["]'
 
 
 ## FUNCs
